@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC0387362626FB28009A701D /* DiscountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0387352626FB28009A701D /* DiscountModel.swift */; };
+		EC038739262700B2009A701D /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC038738262700B2009A701D /* Alerts.swift */; };
+		EC03873C26271C86009A701D /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC03873B26271C86009A701D /* DeliveryViewController.swift */; };
+		EC03873F262720C2009A701D /* DeliveryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC03873E262720C2009A701D /* DeliveryPresenter.swift */; };
+		EC038742262763D8009A701D /* DeliveryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC038741262763D7009A701D /* DeliveryViews.swift */; };
+		EC15924E261F2EC200A5D4E7 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15924D261F2EC200A5D4E7 /* ShoppingCartViewController.swift */; };
+		EC159251261F3F6F00A5D4E7 /* EmptyCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC159250261F3F6F00A5D4E7 /* EmptyCartView.swift */; };
+		EC159254261F45B200A5D4E7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC159253261F45B200A5D4E7 /* Montserrat-Regular.ttf */; };
+		EC159257261F463A00A5D4E7 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC159256261F463A00A5D4E7 /* Montserrat-Bold.ttf */; };
+		EC15925A261F564B00A5D4E7 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC159259261F564B00A5D4E7 /* CartCell.swift */; };
+		EC15925D261FA23500A5D4E7 /* RecomendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15925C261FA23500A5D4E7 /* RecomendedViewController.swift */; };
+		EC15926026205E8800A5D4E7 /* EntryAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15925F26205E8800A5D4E7 /* EntryAccountViewController.swift */; };
+		EC15926326205EFE00A5D4E7 /* AccountButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15926226205EFE00A5D4E7 /* AccountButtons.swift */; };
+		EC15926726206B8F00A5D4E7 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC15926626206B8F00A5D4E7 /* Montserrat-SemiBold.ttf */; };
+		EC15926B2624F21F00A5D4E7 /* Constants+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15926A2624F21E00A5D4E7 /* Constants+Extensions.swift */; };
+		EC15926E2624F7C900A5D4E7 /* StartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15926D2624F7C900A5D4E7 /* StartPresenter.swift */; };
+		EC1592732624F86500A5D4E7 /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1592722624F86500A5D4E7 /* CatalogPresenter.swift */; };
+		EC1592762624F88C00A5D4E7 /* DiscountsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1592752624F88C00A5D4E7 /* DiscountsPresenter.swift */; };
+		EC1592792624F8B900A5D4E7 /* ShoppingCartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1592782624F8B900A5D4E7 /* ShoppingCartPresenter.swift */; };
+		EC15927C2624F8DE00A5D4E7 /* RecomendedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15927B2624F8DE00A5D4E7 /* RecomendedPresenter.swift */; };
+		EC15927F2624F8FE00A5D4E7 /* EntryAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15927E2624F8FE00A5D4E7 /* EntryAccountPresenter.swift */; };
+		EC1592822624FDC400A5D4E7 /* ProductsViewCounroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1592812624FDC400A5D4E7 /* ProductsViewCounroller.swift */; };
+		EC1592852624FE1800A5D4E7 /* ProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1592842624FE1800A5D4E7 /* ProductsPresenter.swift */; };
+		EC1592882624FE5400A5D4E7 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1592872624FE5400A5D4E7 /* TopBar.swift */; };
+		EC15928B262503FA00A5D4E7 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC15928A262503FA00A5D4E7 /* ProductCell.swift */; };
+		EC1592932625DFF200A5D4E7 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1592922625DFF200A5D4E7 /* ProductModel.swift */; };
+		EC346154262EE4D700F37A23 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC346153262EE4D700F37A23 /* PaymentViewController.swift */; };
+		EC346157262EE4E300F37A23 /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC346156262EE4E300F37A23 /* PaymentPresenter.swift */; };
+		EC34615A262F096C00F37A23 /* PaymentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC346159262F096C00F37A23 /* PaymentViews.swift */; };
+		EC5316F0261C8A41008D62C7 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5316EF261C8A41008D62C7 /* CatalogViewController.swift */; };
+		EC5316F3261C8C4E008D62C7 /* CatalogueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5316F2261C8C4E008D62C7 /* CatalogueCell.swift */; };
+		EC5316F7261CA813008D62C7 /* DiscountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5316F6261CA813008D62C7 /* DiscountsViewController.swift */; };
+		EC5316FA261CA887008D62C7 /* DiscountViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5316F9261CA887008D62C7 /* DiscountViews.swift */; };
+		ECEB1083261B4877009A2DA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB1082261B4877009A2DA6 /* AppDelegate.swift */; };
+		ECEB1087261B4877009A2DA6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB1086261B4877009A2DA6 /* StartViewController.swift */; };
+		ECEB108D261B4877009A2DA6 /* ZATON.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECEB108B261B4877009A2DA6 /* ZATON.xcdatamodeld */; };
+		ECEB108F261B487D009A2DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEB108E261B487D009A2DA6 /* Assets.xcassets */; };
+		ECEB1092261B487D009A2DA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEB1090261B487D009A2DA6 /* LaunchScreen.storyboard */; };
+		ECEB109F261B4F0D009A2DA6 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB109E261B4F0D009A2DA6 /* Circle.swift */; };
+		ECEB10AA261B66B4009A2DA6 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECEB10A9261B66B4009A2DA6 /* Montserrat-ExtraBold.otf */; };
+		ECEB10AD261B6789009A2DA6 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECEB10AC261B6789009A2DA6 /* Montserrat-Medium.ttf */; };
+		ECEB10B6261B69C1009A2DA6 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECEB10B5261B69C1009A2DA6 /* Montserrat-Light.ttf */; };
+		ECEB10B9261B7B10009A2DA6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB10B8261B7B10009A2DA6 /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC0387352626FB28009A701D /* DiscountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountModel.swift; sourceTree = "<group>"; };
+		EC038738262700B2009A701D /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		EC03873B26271C86009A701D /* DeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
+		EC03873E262720C2009A701D /* DeliveryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryPresenter.swift; sourceTree = "<group>"; };
+		EC038741262763D7009A701D /* DeliveryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryViews.swift; sourceTree = "<group>"; };
+		EC15924D261F2EC200A5D4E7 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		EC159250261F3F6F00A5D4E7 /* EmptyCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCartView.swift; sourceTree = "<group>"; };
+		EC159253261F45B200A5D4E7 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		EC159256261F463A00A5D4E7 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		EC159259261F564B00A5D4E7 /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		EC15925C261FA23500A5D4E7 /* RecomendedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendedViewController.swift; sourceTree = "<group>"; };
+		EC15925F26205E8800A5D4E7 /* EntryAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryAccountViewController.swift; sourceTree = "<group>"; };
+		EC15926226205EFE00A5D4E7 /* AccountButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountButtons.swift; sourceTree = "<group>"; };
+		EC15926626206B8F00A5D4E7 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		EC15926A2624F21E00A5D4E7 /* Constants+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+Extensions.swift"; sourceTree = "<group>"; };
+		EC15926D2624F7C900A5D4E7 /* StartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPresenter.swift; sourceTree = "<group>"; };
+		EC1592722624F86500A5D4E7 /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
+		EC1592752624F88C00A5D4E7 /* DiscountsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsPresenter.swift; sourceTree = "<group>"; };
+		EC1592782624F8B900A5D4E7 /* ShoppingCartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartPresenter.swift; sourceTree = "<group>"; };
+		EC15927B2624F8DE00A5D4E7 /* RecomendedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendedPresenter.swift; sourceTree = "<group>"; };
+		EC15927E2624F8FE00A5D4E7 /* EntryAccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryAccountPresenter.swift; sourceTree = "<group>"; };
+		EC1592812624FDC400A5D4E7 /* ProductsViewCounroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewCounroller.swift; sourceTree = "<group>"; };
+		EC1592842624FE1800A5D4E7 /* ProductsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsPresenter.swift; sourceTree = "<group>"; };
+		EC1592872624FE5400A5D4E7 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		EC15928A262503FA00A5D4E7 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		EC1592922625DFF200A5D4E7 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		EC346153262EE4D700F37A23 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		EC346156262EE4E300F37A23 /* PaymentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
+		EC346159262F096C00F37A23 /* PaymentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViews.swift; sourceTree = "<group>"; };
+		EC5316EF261C8A41008D62C7 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		EC5316F2261C8C4E008D62C7 /* CatalogueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueCell.swift; sourceTree = "<group>"; };
+		EC5316F6261CA813008D62C7 /* DiscountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsViewController.swift; sourceTree = "<group>"; };
+		EC5316F9261CA887008D62C7 /* DiscountViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountViews.swift; sourceTree = "<group>"; };
+		ECEB107F261B4877009A2DA6 /* ZATON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZATON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEB1082261B4877009A2DA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECEB1086261B4877009A2DA6 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		ECEB108C261B4877009A2DA6 /* ZATON.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZATON.xcdatamodel; sourceTree = "<group>"; };
+		ECEB108E261B487D009A2DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECEB1091261B487D009A2DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECEB1093261B487D009A2DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEB109E261B4F0D009A2DA6 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		ECEB10A9261B66B4009A2DA6 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		ECEB10AC261B6789009A2DA6 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		ECEB10B5261B69C1009A2DA6 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		ECEB10B8261B7B10009A2DA6 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECEB107C261B4877009A2DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1592702624F7D000A5D4E7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EC15926D2624F7C900A5D4E7 /* StartPresenter.swift */,
+				EC1592722624F86500A5D4E7 /* CatalogPresenter.swift */,
+				EC1592752624F88C00A5D4E7 /* DiscountsPresenter.swift */,
+				EC1592782624F8B900A5D4E7 /* ShoppingCartPresenter.swift */,
+				EC15927B2624F8DE00A5D4E7 /* RecomendedPresenter.swift */,
+				EC15927E2624F8FE00A5D4E7 /* EntryAccountPresenter.swift */,
+				EC1592842624FE1800A5D4E7 /* ProductsPresenter.swift */,
+				EC03873E262720C2009A701D /* DeliveryPresenter.swift */,
+				EC346156262EE4E300F37A23 /* PaymentPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		ECEB1076261B4877009A2DA6 = {
+			isa = PBXGroup;
+			children = (
+				ECEB1081261B4877009A2DA6 /* ZATON */,
+				ECEB1080261B4877009A2DA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECEB1080261B4877009A2DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECEB107F261B4877009A2DA6 /* ZATON.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECEB1081261B4877009A2DA6 /* ZATON */ = {
+			isa = PBXGroup;
+			children = (
+				ECEB1082261B4877009A2DA6 /* AppDelegate.swift */,
+				EC1592702624F7D000A5D4E7 /* Presenter */,
+				ECEB10B2261B68EC009A2DA6 /* ViewControllers */,
+				ECEB10B0261B68DE009A2DA6 /* Views */,
+				EC15926A2624F21E00A5D4E7 /* Constants+Extensions.swift */,
+				EC1592922625DFF200A5D4E7 /* ProductModel.swift */,
+				EC0387352626FB28009A701D /* DiscountModel.swift */,
+				ECEB108E261B487D009A2DA6 /* Assets.xcassets */,
+				ECEB1090261B487D009A2DA6 /* LaunchScreen.storyboard */,
+				ECEB1093261B487D009A2DA6 /* Info.plist */,
+				ECEB108B261B4877009A2DA6 /* ZATON.xcdatamodeld */,
+				ECEB10AF261B68D2009A2DA6 /* Fonts */,
+			);
+			path = ZATON;
+			sourceTree = "<group>";
+		};
+		ECEB10AF261B68D2009A2DA6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EC159256261F463A00A5D4E7 /* Montserrat-Bold.ttf */,
+				EC159253261F45B200A5D4E7 /* Montserrat-Regular.ttf */,
+				ECEB10B5261B69C1009A2DA6 /* Montserrat-Light.ttf */,
+				ECEB10A9261B66B4009A2DA6 /* Montserrat-ExtraBold.otf */,
+				ECEB10AC261B6789009A2DA6 /* Montserrat-Medium.ttf */,
+				EC15926626206B8F00A5D4E7 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ECEB10B0261B68DE009A2DA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECEB109E261B4F0D009A2DA6 /* Circle.swift */,
+				EC5316F2261C8C4E008D62C7 /* CatalogueCell.swift */,
+				EC159259261F564B00A5D4E7 /* CartCell.swift */,
+				EC5316F9261CA887008D62C7 /* DiscountViews.swift */,
+				EC159250261F3F6F00A5D4E7 /* EmptyCartView.swift */,
+				EC15926226205EFE00A5D4E7 /* AccountButtons.swift */,
+				EC1592872624FE5400A5D4E7 /* TopBar.swift */,
+				EC15928A262503FA00A5D4E7 /* ProductCell.swift */,
+				EC038738262700B2009A701D /* Alerts.swift */,
+				EC038741262763D7009A701D /* DeliveryViews.swift */,
+				EC346159262F096C00F37A23 /* PaymentViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECEB10B2261B68EC009A2DA6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECEB1086261B4877009A2DA6 /* StartViewController.swift */,
+				ECEB10B8261B7B10009A2DA6 /* TabBarViewController.swift */,
+				EC5316EF261C8A41008D62C7 /* CatalogViewController.swift */,
+				EC5316F6261CA813008D62C7 /* DiscountsViewController.swift */,
+				EC15924D261F2EC200A5D4E7 /* ShoppingCartViewController.swift */,
+				EC15925C261FA23500A5D4E7 /* RecomendedViewController.swift */,
+				EC15925F26205E8800A5D4E7 /* EntryAccountViewController.swift */,
+				EC1592812624FDC400A5D4E7 /* ProductsViewCounroller.swift */,
+				EC03873B26271C86009A701D /* DeliveryViewController.swift */,
+				EC346153262EE4D700F37A23 /* PaymentViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECEB107E261B4877009A2DA6 /* ZATON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEB1096261B487D009A2DA6 /* Build configuration list for PBXNativeTarget "ZATON" */;
+			buildPhases = (
+				ECEB107B261B4877009A2DA6 /* Sources */,
+				ECEB107C261B4877009A2DA6 /* Frameworks */,
+				ECEB107D261B4877009A2DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZATON;
+			productName = ZATON;
+			productReference = ECEB107F261B4877009A2DA6 /* ZATON.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECEB1077261B4877009A2DA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ECEB107E261B4877009A2DA6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = ECEB107A261B4877009A2DA6 /* Build configuration list for PBXProject "ZATON" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECEB1076261B4877009A2DA6;
+			productRefGroup = ECEB1080261B4877009A2DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECEB107E261B4877009A2DA6 /* ZATON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECEB107D261B4877009A2DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEB10AA261B66B4009A2DA6 /* Montserrat-ExtraBold.otf in Resources */,
+				EC159257261F463A00A5D4E7 /* Montserrat-Bold.ttf in Resources */,
+				ECEB10B6261B69C1009A2DA6 /* Montserrat-Light.ttf in Resources */,
+				EC15926726206B8F00A5D4E7 /* Montserrat-SemiBold.ttf in Resources */,
+				ECEB1092261B487D009A2DA6 /* LaunchScreen.storyboard in Resources */,
+				ECEB10AD261B6789009A2DA6 /* Montserrat-Medium.ttf in Resources */,
+				EC159254261F45B200A5D4E7 /* Montserrat-Regular.ttf in Resources */,
+				ECEB108F261B487D009A2DA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECEB107B261B4877009A2DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC038742262763D8009A701D /* DeliveryViews.swift in Sources */,
+				EC15926026205E8800A5D4E7 /* EntryAccountViewController.swift in Sources */,
+				EC15927C2624F8DE00A5D4E7 /* RecomendedPresenter.swift in Sources */,
+				EC03873C26271C86009A701D /* DeliveryViewController.swift in Sources */,
+				EC159251261F3F6F00A5D4E7 /* EmptyCartView.swift in Sources */,
+				EC5316F0261C8A41008D62C7 /* CatalogViewController.swift in Sources */,
+				EC1592932625DFF200A5D4E7 /* ProductModel.swift in Sources */,
+				ECEB1087261B4877009A2DA6 /* StartViewController.swift in Sources */,
+				ECEB109F261B4F0D009A2DA6 /* Circle.swift in Sources */,
+				EC346157262EE4E300F37A23 /* PaymentPresenter.swift in Sources */,
+				EC1592852624FE1800A5D4E7 /* ProductsPresenter.swift in Sources */,
+				EC5316F7261CA813008D62C7 /* DiscountsViewController.swift in Sources */,
+				EC15926326205EFE00A5D4E7 /* AccountButtons.swift in Sources */,
+				EC15926B2624F21F00A5D4E7 /* Constants+Extensions.swift in Sources */,
+				EC1592732624F86500A5D4E7 /* CatalogPresenter.swift in Sources */,
+				EC15924E261F2EC200A5D4E7 /* ShoppingCartViewController.swift in Sources */,
+				EC1592882624FE5400A5D4E7 /* TopBar.swift in Sources */,
+				EC5316F3261C8C4E008D62C7 /* CatalogueCell.swift in Sources */,
+				EC15925A261F564B00A5D4E7 /* CartCell.swift in Sources */,
+				EC1592822624FDC400A5D4E7 /* ProductsViewCounroller.swift in Sources */,
+				EC15925D261FA23500A5D4E7 /* RecomendedViewController.swift in Sources */,
+				EC15928B262503FA00A5D4E7 /* ProductCell.swift in Sources */,
+				EC15926E2624F7C900A5D4E7 /* StartPresenter.swift in Sources */,
+				EC0387362626FB28009A701D /* DiscountModel.swift in Sources */,
+				ECEB1083261B4877009A2DA6 /* AppDelegate.swift in Sources */,
+				ECEB10B9261B7B10009A2DA6 /* TabBarViewController.swift in Sources */,
+				EC34615A262F096C00F37A23 /* PaymentViews.swift in Sources */,
+				EC03873F262720C2009A701D /* DeliveryPresenter.swift in Sources */,
+				EC038739262700B2009A701D /* Alerts.swift in Sources */,
+				EC1592792624F8B900A5D4E7 /* ShoppingCartPresenter.swift in Sources */,
+				EC346154262EE4D700F37A23 /* PaymentViewController.swift in Sources */,
+				ECEB108D261B4877009A2DA6 /* ZATON.xcdatamodeld in Sources */,
+				EC5316FA261CA887008D62C7 /* DiscountViews.swift in Sources */,
+				EC1592762624F88C00A5D4E7 /* DiscountsPresenter.swift in Sources */,
+				EC15927F2624F8FE00A5D4E7 /* EntryAccountPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECEB1090261B487D009A2DA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEB1091261B487D009A2DA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECEB1094261B487D009A2DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECEB1095261B487D009A2DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECEB1097261B487D009A2DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z347TUD92;
+				INFOPLIST_FILE = ZATON/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = Leplasak.ZATON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ECEB1098261B487D009A2DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9Z347TUD92;
+				INFOPLIST_FILE = ZATON/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = Leplasak.ZATON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECEB107A261B4877009A2DA6 /* Build configuration list for PBXProject "ZATON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEB1094261B487D009A2DA6 /* Debug */,
+				ECEB1095261B487D009A2DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEB1096261B487D009A2DA6 /* Build configuration list for PBXNativeTarget "ZATON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEB1097261B487D009A2DA6 /* Debug */,
+				ECEB1098261B487D009A2DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECEB108B261B4877009A2DA6 /* ZATON.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECEB108C261B4877009A2DA6 /* ZATON.xcdatamodel */,
+			);
+			currentVersion = ECEB108C261B4877009A2DA6 /* ZATON.xcdatamodel */;
+			path = ZATON.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECEB1077261B4877009A2DA6 /* Project object */;
+}
